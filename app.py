@@ -6,7 +6,7 @@ Created on Wed Apr 12 00:16:02 2023
 """
 
 import pickle
-clf=pickle.load(open("C:/Users/user/Desktop/New folder/model.sav",'rb'))
+clf=pickle.load(open("model.sav",'rb'))
 import streamlit as st
 def welcome():
     return 'Welcome All'
